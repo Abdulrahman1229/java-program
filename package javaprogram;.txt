@@ -1,0 +1,18 @@
+package javaprogram;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+public class add4yearstodate {
+	
+
+	public static void main(String args[])
+	{
+		 Calendar c = Calendar.getInstance();
+		 System.out.println("The Current Date is:" + c.getTime()); 
+		 c.add(Calendar.YEAR, +4);
+		 System.out.println("4 years after it was: " + c.getTime());  
+
+	}
+}			               
+		 
