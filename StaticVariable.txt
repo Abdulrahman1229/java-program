@@ -1,0 +1,16 @@
+package javaprogram;
+
+public class StaticVariable2 {
+static int a=10;
+static String name="java";
+static double salary=100000;
+void display()
+{
+}
+public static void main (String args[]) {
+	System.out.println("num is:"+a);
+	System.out.println("name is:"+name);
+	System.out.println("salary is:"+salary);
+}
+	
+}
