@@ -1,0 +1,18 @@
+package javaprogram;
+
+public class LocalVariable2{
+	void display() {
+		 int num= 10;
+		String name="abd";
+		System.out.println("the num is:"+num);
+		System.out.println("subject is:"+name);
+	}
+		
+		
+	
+public static void main (String a[]) {
+	LocalVariable2 l2= new LocalVariable2();
+	l2.display();
+	
+}
+}
