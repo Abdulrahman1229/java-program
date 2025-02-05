@@ -1,0 +1,21 @@
+class Prints extends Thread{
+	public void run() {
+
+	for(int i=1;i<=20;i++) {
+		if(i%2==0) {
+			System.out.println(i+"Even number");
+		}else {
+				System.out.println(i+"odd number");
+			}
+		
+		}
+		
+	}
+	
+}
+public class PrintEvenorOddByThreads {
+public static void main (String args[]) {
+	Prints p=new Prints();
+	p.start();
+}
+}
